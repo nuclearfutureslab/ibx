@@ -1,0 +1,641 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:frontpanel-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X13 P1
+U 1 1 5723328C
+P 4510 3145
+F 0 "P1" H 4510 3845 50  0000 C CNN
+F 1 "CONN_02X13" V 4510 3145 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x13" H 4510 1995 50  0001 C CNN
+F 3 "" H 4510 1995 50  0000 C CNN
+	1    4510 3145
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D11
+U 1 1 57233345
+P 2030 1835
+F 0 "D11" H 2030 1935 50  0000 C CNN
+F 1 "REA" H 2030 1735 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2030 1835 50  0001 C CNN
+F 3 "" H 2030 1835 50  0000 C CNN
+	1    2030 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 572335D6
+P 1680 1835
+F 0 "R11" V 1760 1835 50  0000 C CNN
+F 1 "R" V 1680 1835 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1610 1835 50  0001 C CNN
+F 3 "" H 1680 1835 50  0000 C CNN
+	1    1680 1835
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D10
+U 1 1 57234EB9
+P 2025 2135
+F 0 "D10" H 2025 2235 50  0000 C CNN
+F 1 "BUC" H 2025 2035 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2025 2135 50  0001 C CNN
+F 3 "" H 2025 2135 50  0000 C CNN
+	1    2025 2135
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 57234EBF
+P 1675 2135
+F 0 "R10" V 1755 2135 50  0000 C CNN
+F 1 "R" V 1675 2135 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1605 2135 50  0001 C CNN
+F 3 "" H 1675 2135 50  0000 C CNN
+	1    1675 2135
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 57235EEC
+P 2020 2760
+F 0 "D7" H 2020 2860 50  0000 C CNN
+F 1 "A2L" H 2020 2660 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2020 2760 50  0001 C CNN
+F 3 "" H 2020 2760 50  0000 C CNN
+	1    2020 2760
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 57235EF2
+P 1670 2760
+F 0 "R7" V 1750 2760 50  0000 C CNN
+F 1 "R" V 1670 2760 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1600 2760 50  0001 C CNN
+F 3 "" H 1670 2760 50  0000 C CNN
+	1    1670 2760
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 57235EF8
+P 2020 2435
+F 0 "D6" H 2020 2535 50  0000 C CNN
+F 1 "A1L" H 2020 2335 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2020 2435 50  0001 C CNN
+F 3 "" H 2020 2435 50  0000 C CNN
+	1    2020 2435
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 57235EFE
+P 1670 2435
+F 0 "R6" V 1750 2435 50  0000 C CNN
+F 1 "R" V 1670 2435 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1600 2435 50  0001 C CNN
+F 3 "" H 1670 2435 50  0000 C CNN
+	1    1670 2435
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D9
+U 1 1 57235F04
+P 2020 3425
+F 0 "D9" H 2020 3525 50  0000 C CNN
+F 1 "BUA" H 2020 3325 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2020 3425 50  0001 C CNN
+F 3 "" H 2020 3425 50  0000 C CNN
+	1    2020 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 57235F0A
+P 1670 3425
+F 0 "R9" V 1750 3425 50  0000 C CNN
+F 1 "R" V 1670 3425 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1600 3425 50  0001 C CNN
+F 3 "" H 1670 3425 50  0000 C CNN
+	1    1670 3425
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 57235F10
+P 2020 3100
+F 0 "D8" H 2020 3200 50  0000 C CNN
+F 1 "A3L" H 2020 3000 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2020 3100 50  0001 C CNN
+F 3 "" H 2020 3100 50  0000 C CNN
+	1    2020 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 57235F16
+P 1670 3100
+F 0 "R8" V 1750 3100 50  0000 C CNN
+F 1 "R" V 1670 3100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1600 3100 50  0001 C CNN
+F 3 "" H 1670 3100 50  0000 C CNN
+	1    1670 3100
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5723724A
+P 2015 4050
+F 0 "D2" H 2015 4150 50  0000 C CNN
+F 1 "T1M" H 2015 3950 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2015 4050 50  0001 C CNN
+F 3 "" H 2015 4050 50  0000 C CNN
+	1    2015 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 57237250
+P 1665 4050
+F 0 "R2" V 1745 4050 50  0000 C CNN
+F 1 "R" V 1665 4050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1595 4050 50  0001 C CNN
+F 3 "" H 1665 4050 50  0000 C CNN
+	1    1665 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 57237256
+P 2015 3725
+F 0 "D1" H 2015 3825 50  0000 C CNN
+F 1 "BUI" H 2015 3625 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2015 3725 50  0001 C CNN
+F 3 "" H 2015 3725 50  0000 C CNN
+	1    2015 3725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5723725C
+P 1665 3725
+F 0 "R1" V 1745 3725 50  0000 C CNN
+F 1 "R" V 1665 3725 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1595 3725 50  0001 C CNN
+F 3 "" H 1665 3725 50  0000 C CNN
+	1    1665 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 57237262
+P 2015 4715
+F 0 "D4" H 2015 4815 50  0000 C CNN
+F 1 "T3M" H 2015 4615 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2015 4715 50  0001 C CNN
+F 3 "" H 2015 4715 50  0000 C CNN
+	1    2015 4715
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 57237268
+P 1665 4715
+F 0 "R4" V 1745 4715 50  0000 C CNN
+F 1 "R" V 1665 4715 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1595 4715 50  0001 C CNN
+F 3 "" H 1665 4715 50  0000 C CNN
+	1    1665 4715
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5723726E
+P 2015 4390
+F 0 "D3" H 2015 4490 50  0000 C CNN
+F 1 "T2M" H 2015 4290 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2015 4390 50  0001 C CNN
+F 3 "" H 2015 4390 50  0000 C CNN
+	1    2015 4390
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 57237274
+P 1665 4390
+F 0 "R3" V 1745 4390 50  0000 C CNN
+F 1 "R" V 1665 4390 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1595 4390 50  0001 C CNN
+F 3 "" H 1665 4390 50  0000 C CNN
+	1    1665 4390
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 57238E84
+P 2015 5045
+F 0 "D5" H 2015 5145 50  0000 C CNN
+F 1 "MML" H 2015 4945 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2015 5045 50  0001 C CNN
+F 3 "" H 2015 5045 50  0000 C CNN
+	1    2015 5045
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 57238E8A
+P 1665 5045
+F 0 "R5" V 1745 5045 50  0000 C CNN
+F 1 "R" V 1665 5045 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1595 5045 50  0001 C CNN
+F 3 "" H 1665 5045 50  0000 C CNN
+	1    1665 5045
+	0    -1   1    0   
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 572393F7
+P 6905 1725
+F 0 "SW1" H 6905 1825 50  0000 C CNN
+F 1 "A1B" H 6905 1625 50  0000 C CNN
+F 2 "caen:button-panel" H 6905 1725 50  0001 C CNN
+F 3 "" H 6905 1725 50  0000 C CNN
+	1    6905 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW2
+U 1 1 572394E8
+P 6905 2120
+F 0 "SW2" H 6905 2220 50  0000 C CNN
+F 1 "A2B" H 6905 2020 50  0000 C CNN
+F 2 "caen:button-panel" H 6905 2120 50  0001 C CNN
+F 3 "" H 6905 2120 50  0000 C CNN
+	1    6905 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW3
+U 1 1 572395AF
+P 6905 2480
+F 0 "SW3" H 6905 2580 50  0000 C CNN
+F 1 "A3B" H 6905 2380 50  0000 C CNN
+F 2 "caen:button-panel" H 6905 2480 50  0001 C CNN
+F 3 "" H 6905 2480 50  0000 C CNN
+	1    6905 2480
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 572396B5
+P 6665 3840
+F 0 "P3" H 6665 4090 50  0000 C CNN
+F 1 "HV" V 6765 3840 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6665 3840 50  0001 C CNN
+F 3 "" H 6665 3840 50  0000 C CNN
+	1    6665 3840
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 572398C1
+P 6645 4435
+F 0 "P2" H 6645 4685 50  0000 C CNN
+F 1 "CALIBRATE" V 6745 4435 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6645 4435 50  0001 C CNN
+F 3 "" H 6645 4435 50  0000 C CNN
+	1    6645 4435
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P4
+U 1 1 5723999F
+P 6670 5015
+F 0 "P4" H 6670 5265 50  0000 C CNN
+F 1 "INSPECT" V 6770 5015 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6670 5015 50  0001 C CNN
+F 3 "" H 6670 5015 50  0000 C CNN
+	1    6670 5015
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57245D31
+P 7725 2610
+F 0 "#PWR01" H 7725 2360 50  0001 C CNN
+F 1 "GND" H 7725 2460 50  0000 C CNN
+F 2 "" H 7725 2610 50  0000 C CNN
+F 3 "" H 7725 2610 50  0000 C CNN
+	1    7725 2610
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57246102
+P 5765 6015
+F 0 "#PWR02" H 5765 5765 50  0001 C CNN
+F 1 "GND" H 5765 5865 50  0000 C CNN
+F 2 "" H 5765 6015 50  0000 C CNN
+F 3 "" H 5765 6015 50  0000 C CNN
+	1    5765 6015
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1320 1835 1320 5670
+Wire Wire Line
+	4260 3045 3180 3045
+Wire Wire Line
+	3180 3045 3180 1835
+Wire Wire Line
+	3180 1835 2230 1835
+Wire Wire Line
+	2225 2135 3210 2135
+Wire Wire Line
+	3210 2135 3210 2945
+Wire Wire Line
+	3210 2945 4260 2945
+Wire Wire Line
+	2220 2435 3735 2435
+Wire Wire Line
+	3735 2435 3735 1890
+Wire Wire Line
+	3735 1890 5445 1890
+Wire Wire Line
+	5445 1890 5445 3145
+Wire Wire Line
+	5445 3145 4760 3145
+Wire Wire Line
+	2220 2760 3825 2760
+Wire Wire Line
+	3825 2760 3825 1970
+Wire Wire Line
+	3825 1970 5360 1970
+Wire Wire Line
+	5360 1970 5360 3345
+Wire Wire Line
+	5360 3345 4760 3345
+Wire Wire Line
+	2220 3100 3915 3100
+Wire Wire Line
+	3915 3100 3915 2055
+Wire Wire Line
+	3915 2055 5275 2055
+Wire Wire Line
+	5275 2055 5275 3545
+Wire Wire Line
+	5275 3545 4760 3545
+Wire Wire Line
+	2220 3425 3150 3425
+Wire Wire Line
+	3150 3425 3150 2845
+Wire Wire Line
+	3150 2845 4260 2845
+Wire Wire Line
+	2215 3725 3650 3725
+Wire Wire Line
+	2215 4050 3565 4050
+Wire Wire Line
+	3565 4050 3565 1720
+Wire Wire Line
+	3565 1720 5605 1720
+Wire Wire Line
+	5605 1720 5605 2845
+Wire Wire Line
+	5605 2845 4760 2845
+Wire Wire Line
+	2215 4390 3495 4390
+Wire Wire Line
+	3495 4390 3495 1615
+Wire Wire Line
+	3495 1615 5685 1615
+Wire Wire Line
+	5685 1615 5685 2745
+Wire Wire Line
+	5685 2745 4760 2745
+Wire Wire Line
+	2215 4715 3410 4715
+Wire Wire Line
+	3410 4715 3410 1505
+Wire Wire Line
+	3410 1505 5780 1505
+Wire Wire Line
+	5780 1505 5780 2645
+Wire Wire Line
+	5780 2645 4760 2645
+Wire Wire Line
+	2215 5045 3080 5045
+Wire Wire Line
+	3080 5045 3080 2645
+Wire Wire Line
+	3080 2645 4260 2645
+Wire Wire Line
+	5860 1725 5860 3245
+Wire Wire Line
+	5860 3245 4760 3245
+Wire Wire Line
+	5945 2120 5945 3445
+Wire Wire Line
+	5945 3445 4760 3445
+Wire Wire Line
+	6405 2480 6020 2480
+Wire Wire Line
+	6020 2480 6020 3645
+Wire Wire Line
+	6020 3645 4760 3645
+Wire Wire Line
+	6465 3790 5225 3790
+Wire Wire Line
+	5225 3790 5225 4175
+Wire Wire Line
+	5225 4175 4040 4175
+Wire Wire Line
+	4040 4175 4040 3545
+Wire Wire Line
+	4040 3545 4260 3545
+Wire Wire Line
+	6465 3990 5270 3990
+Wire Wire Line
+	5270 3990 5270 4225
+Wire Wire Line
+	5270 4225 4085 4225
+Wire Wire Line
+	4085 4225 4085 3645
+Wire Wire Line
+	4085 3645 4260 3645
+Wire Wire Line
+	6445 4385 3930 4385
+Wire Wire Line
+	3930 4385 3930 3345
+Wire Wire Line
+	3930 3345 4260 3345
+Wire Wire Line
+	6445 4585 3985 4585
+Wire Wire Line
+	3985 4585 3985 3445
+Wire Wire Line
+	3985 3445 4260 3445
+Wire Wire Line
+	4760 3045 6170 3045
+Wire Wire Line
+	6170 3045 6170 4965
+Wire Wire Line
+	6170 4965 6470 4965
+Wire Wire Line
+	3650 3725 3650 2745
+Wire Wire Line
+	3650 2745 4260 2745
+Wire Wire Line
+	4760 2945 6245 2945
+Wire Wire Line
+	6245 2945 6245 5165
+Wire Wire Line
+	6245 5165 6470 5165
+Wire Wire Line
+	6465 3890 5765 3890
+Wire Wire Line
+	5765 5065 6470 5065
+Connection ~ 5765 5065
+Wire Wire Line
+	6405 2120 5945 2120
+Wire Wire Line
+	5860 1725 6405 1725
+Wire Wire Line
+	7725 1725 7725 2610
+Wire Wire Line
+	7725 1725 7405 1725
+Wire Wire Line
+	7405 2120 7725 2120
+Connection ~ 7725 2120
+Wire Wire Line
+	7405 2480 7725 2480
+Connection ~ 7725 2480
+Wire Wire Line
+	6445 4485 5765 4485
+Connection ~ 5765 4485
+Wire Wire Line
+	4155 2545 4155 5310
+Wire Wire Line
+	4155 5310 5765 5310
+Connection ~ 5765 5310
+Wire Wire Line
+	4760 3745 5005 3745
+Connection ~ 5005 5310
+Wire Wire Line
+	4260 2545 4155 2545
+Wire Wire Line
+	1515 5045 1320 5045
+Connection ~ 1320 5045
+Wire Wire Line
+	1515 4715 1320 4715
+Connection ~ 1320 4715
+Wire Wire Line
+	1515 4050 1320 4050
+Connection ~ 1320 4050
+Wire Wire Line
+	1515 3725 1320 3725
+Connection ~ 1320 3725
+Wire Wire Line
+	1520 3425 1320 3425
+Connection ~ 1320 3425
+Wire Wire Line
+	1520 2760 1320 2760
+Connection ~ 1320 2760
+Wire Wire Line
+	1520 2435 1320 2435
+Connection ~ 1320 2435
+Wire Wire Line
+	1320 2135 1525 2135
+Connection ~ 1320 2135
+Wire Wire Line
+	1530 1835 1320 1835
+Wire Wire Line
+	1515 4390 1320 4390
+Connection ~ 1320 4390
+Wire Wire Line
+	1520 3100 1320 3100
+Connection ~ 1320 3100
+Wire Wire Line
+	5005 3745 5005 5310
+Wire Wire Line
+	4760 2545 4870 2545
+Wire Wire Line
+	4870 2545 4870 5670
+Wire Wire Line
+	1320 5670 6390 5670
+Wire Wire Line
+	4260 3745 4260 5670
+Connection ~ 4260 5670
+Wire Wire Line
+	5765 3890 5765 6015
+Wire Wire Line
+	6465 3690 6390 3690
+Wire Wire Line
+	6390 3690 6390 5670
+Connection ~ 4870 5670
+Wire Wire Line
+	6470 4865 6390 4865
+Connection ~ 6390 4865
+Wire Wire Line
+	6445 4285 6390 4285
+Connection ~ 6390 4285
+$Comp
+L +5V #PWR03
+U 1 1 573106B7
+P 1580 5600
+F 0 "#PWR03" H 1580 5450 50  0001 C CNN
+F 1 "+5V" H 1580 5740 50  0000 C CNN
+F 2 "" H 1580 5600 50  0000 C CNN
+F 3 "" H 1580 5600 50  0000 C CNN
+	1    1580 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1580 5600 1580 5670
+Connection ~ 1580 5670
+NoConn ~ 4260 3145
+NoConn ~ 4260 3245
+$EndSCHEMATC
